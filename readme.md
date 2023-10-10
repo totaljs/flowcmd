@@ -18,6 +18,6 @@ __How to run it?__
 
 ## How to edit it?
 
-We use Total.js Flow Cloud Designer. Please use the designer only for the required time, don't keep the connection online for a longer time in the background.
+We use Total.js Flow Cloud Designer. Please use the designer only for the required time. Don't keep the connection online for a longer time in the background.
 
 - `$ npm start edit`
