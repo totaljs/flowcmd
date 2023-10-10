@@ -1,0 +1,14 @@
+{
+  "name": "cmdflow",
+  "version": "1",
+  "dependencies": {
+    "total4": "latest"
+  },
+  "scripts": {
+    "start": "node run.js",
+    "debug": "node run.js --edit",
+    "edit": "node run.js --edit"
+  },
+  "author": "Total.js",
+  "license": "MIT"
+}
