@@ -12,7 +12,7 @@ Flow.on('load', function(instance, meta) {
 
 	editable && WEBSOCKETCLIENT(function(client) {
 		instance.$client = client;
-		var socket = 'wss://flow.totaljs.com/{0}-{1}/'.format(UID());
+		var socket = 'wss://flow.totaljs.com/{0}/'.format(GUID());
 		client.connect(socket);
 		FlowStream.client('timer', client);
 		console.log('Link to designer:', 'https://flow.totaljs.com?socket=' + encodeURIComponent(socket));
